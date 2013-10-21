@@ -30,7 +30,6 @@ a:active {
 }
 #nav-top a, #nav a {
 	-webkit-transition: all .2s ease-in !important;
-	-khtml-transition: all .2s ease-in !important;
 	-moz-transition: all .2s ease-in !important;
 	-ms-transition: all .2s ease-in !important;
 	-o-transition: all .2s ease-in !important;
@@ -60,13 +59,6 @@ a:active {
 
 /* cass3 animation */
 /*@-webkit-keyframes header-drop {
-		0% { top: -100px; }
-		70% { top: 6px; } 75% { top: -6px; }
-		80% { top: 6px; } 85% { top: -6px; }
-		90% { top: 4px; } 95% { top: -4px; }
-		100% { top: 0; }
-}
-@-khtml-keyframes header-drop {
 		0% { top: -100px; }
 		70% { top: 6px; } 75% { top: -6px; }
 		80% { top: 6px; } 85% { top: -6px; }
@@ -110,13 +102,6 @@ a:active {
 	40%, 60%, 80% {-webkit-transform: scale(1.03) rotate(-3deg);}
 	100% {-webkit-transform: scale(1.03) rotate(0);}
 }
-@-khtml-keyframes tada {
-	0% {-khtml-transform: scale(1);}
-	10%, 20% {-khtml-transform: scale(.9) rotate(-3deg);}
-	30%, 50%, 70%, 90% {-khtml-transform: scale(1.03) rotate(3deg);}
-	40%, 60%, 80% {-khtml-transform: scale(1.03) rotate(-3deg);}
-	100% {-khtml-transform: scale(1.03) rotate(0);}
-}
 @-moz-keyframes tada {
 	0% {-moz-transform: scale(1);}
 	10%, 20% {-moz-transform: scale(.9) rotate(-3deg);}
@@ -151,10 +136,6 @@ a:active {
 	0% {-webkit-box-shadow: 0 0 5px #97CAFF, inset 1px 1px 2px 2px rgba(143,143,143,.2);}
 	100% {-webkit-box-shadow: 0 0 15px #97CAFF, inset 1px 1px 2px 2px rgba(143,143,143,.2);}
 }
-@-khtml-keyframes glow {
-	0% {-khtml-box-shadow: 0 0 5px #97CAFF, inset 1px 1px 2px 2px rgba(143,143,143,.2);}
-	100% {-khtml-box-shadow: 0 0 15px #97CAFF, inset 1px 1px 2px 2px rgba(143,143,143,.2);}
-}
 @-moz-keyframes glow {
 	0% {-moz-box-shadow: 0 0 5px #97CAFF, inset 1px 1px 2px 2px rgba(143,143,143,.2);}
 	100% {-moz-box-shadow: 0 0 15px #97CAFF, inset 1px 1px 2px 2px rgba(143,143,143,.2);}
@@ -177,11 +158,6 @@ a:active {
 	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
 	40% {-webkit-transform: translateY(-4px);}
 	60% {-webkit-transform: translateY(-2x);}
-}
-@-khtml-keyframes bounce-mid {
-	0%, 20%, 50%, 80%, 100% {-khtml-transform: translateY(0);}
-	40% {-khtml-transform: translateY(-4px);}
-	60% {-khtml-transform: translateY(-2x);}
 }
 @-moz-keyframes bounce-mid {
 	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
@@ -208,16 +184,12 @@ a:active {
 /* header */
 .blogtitle {
 	position: relative;
+
 /*	-webkit-animation-name: header-drop;
 	-webkit-animation-timing-function: ease-in;
 	-webkit-animation-iteration-count: once;
 	-webkit-animation-duration: 1.2s;
 	-webkit-animation-delay: .2s;
-	-khtml-animation-name: header-drop;
-	-khtml-animation-timing-function: ease-in;
-	-khtml-animation-iteration-count: once;
-	-khtml-animation-duration: 1.2s;
-	-khtml-animation-delay: .1s;
 	-moz-animation-name: header-drop;
 	-moz-animation-timing-function: ease-in;
 	-moz-animation-iteration-count: once;
@@ -242,8 +214,8 @@ a:active {
 
 .blogtitle a {
 	position: relative;
+
 /*	-webkit-transition: all 200ms linear;
-	-khtml-transition: all 200ms linear;
 	-moz-transition: all 200ms linear;
 	-ms-transition: all 200ms linear;
 	-o-transition: all 200ms linear;
@@ -252,14 +224,14 @@ a:active {
 
 .blogtitle a:hover {
 	position: relative;
+
 /*	-webkit-transform: scale(1.01, 1.01);
-	-khtml-transform: scale(1.01, 1.01);
 	-moz-transform: scale(1.01, 1.01);
 	-ms-transform: scale(1.01, 1.01);
 	-o-transform: scale(1.01, 1.01);
 	transform: scale(1.01, 1.01);
+
 	-webkit-animation: tada 600ms ease;
-	-khtml-animation: tada 600ms ease;
 	-moz-animation: tada 600ms ease;
 	-ms-animation: tada 600ms ease;
 	-o-animation: tada 600ms ease;
@@ -270,7 +242,6 @@ a:active {
 /* Featured Content */
 body.home div#main-col .sliderImage div {
 	-webkit-border-radius: 5px !important;
-	-khtml-border-radius: 5px !important;
 	-moz-border-radius: 5px !important;
 	-ms-border-radius: 5px !important;
 	-o-border-radius: 5px !important;
@@ -299,8 +270,8 @@ body.home div#main-col .sliderImage .right {
 h1.posttitle,
 h2.posttitle {
 	position: relative;
+
 	-webkit-text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF, 2px 2px 1px #CCC;
-	-khtml-text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF, 2px 2px 1px #CCC;
 	-moz-text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF, 2px 2px 1px #CCC;
 	-ms-text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF, 2px 2px 1px #CCC;
 	-o-text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF, 2px 2px 1px #CCC;
@@ -332,8 +303,8 @@ input[type="file"],
 textarea,
 select {
 	padding: 3px 5px;
+
 	-webkit-box-shadow: inset 1px 1px 1px 1px rgba(192,192,192,.2);
-	-khtml-box-shadow: inset 1px 1px 1px 1px rgba(192,192,192,.2);
 	-moz-box-shadow: inset 1px 1px 1px 1px rgba(192,192,192,.2);
 	-ms-box-shadow: inset 1px 1px 1px 1px rgba(192,192,192,.2);
 	-o-box-shadow: inset 1px 1px 1px 1px rgba(192,192,192,.2);
@@ -357,21 +328,20 @@ input[type="reset"],
 	background-color: #3093c7;
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3093c7), color-stop(100%, #1c5a85));
 	background-image: -webkit-linear-gradient(top, #3093c7, #1c5a85);
-	background-image: -khtml-linear-gradient(top, #3093c7, #1c5a85);
 	background-image: -moz-linear-gradient(top, #3093c7, #1c5a85);
 	background-image: -ms-linear-gradient(top, #3093c7, #1c5a85);
 	background-image: -o-linear-gradient(top, #3093c7, #1c5a85);
 	background-image: linear-gradient(top, #3093c7, #1c5a85);
 	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#3093c7', endColorstr='#1c5a85');
 	zoom: 1;
+
 	-webkit-text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
-	-khtml-text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
 	-moz-text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
 	-ms-text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
 	-o-text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
 	text-shadow: -1px -1px 0 rgba(0,0,0,0.3);
+
 	-webkit-border-radius: 6px;
-	-khtml-border-radius: 6px;
 	-moz-border-radius: 6px;
 	-ms-border-radius: 6px;
 	-o-border-radius: 6px;
@@ -395,15 +365,14 @@ input[type="reset"]:focus,
 	background-color: #26759e;
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#26759e), color-stop(100%, #133d5b));
 	background-image: -webkit-linear-gradient(top, #26759e, #133d5b);
-	background-image: -khtml-linear-gradient(top, #26759e, #133d5b);
 	background-image: -moz-linear-gradient(top, #26759e, #133d5b);
 	background-image: -ms-linear-gradient(top, #26759e, #133d5b);
 	background-image: -o-linear-gradient(top, #26759e, #133d5b);
 	background-image: linear-gradient(top, #26759e, #133d5b);
 	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#26759e', endColorstr='#133d5b');
 	zoom: 1;
+
 	-webkit-transition-duration: .2s !important;
-	-khtml-transition-duration: .2s !important;
 	-moz-transition-duration: .2s !important;
 	-ms-transition-duration: .2s !important;
 	-o-transition-duration: .2s !important;
@@ -418,26 +387,26 @@ input[type="submit"].searchsubmit:active {
 	background: none !important;
 	background: url(images/search-button.png) no-repeat 0 0 !important;
 	background-color: transparent !important;
+
 	-webkit-box-shadow: none !important;
-	-khtml-box-shadow: none !important;
 	-moz-box-shadow: none !important;
 	-ms-box-shadow: none !important;
 	-o-box-shadow: none !important;
 	box-shadow: none !important;
+
 	-webkit-border-radius: none !important;
-	-khtml-border-radius: none !important;
 	-moz-border-radius: none !important;
 	-ms-border-radius: none !important;
 	-o-border-radius: none !important;
 	border-radius: none !important;
+
 	-webkit-animation-name: none !important;
-	-khtml-animation-name: none !important;
 	-moz-animation-name: none !important;
 	-ms-animation-name: none !important;
 	-o-animation-name: none !important;
 	animation-name: none !important;
+
 	-webkit-transition-duration: none !important;
-	-khtml-transition-duration: none !important;
 	-moz-transition-duration: none !important;
 	-ms-transition-duration: none !important;
 	-o-transition-duration: none !important;
@@ -456,21 +425,20 @@ input[type="reset"]:disabled,
 	background-color: #efefef;
 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #efefef), color-stop(100%, #dedede));
 	background-image: -webkit-linear-gradient(top, #efefef, #dedede);
-	background-image: -khtml-linear-gradient(top, #efefef, #dedede);
 	background-image: -moz-linear-gradient(top, #efefef, #dedede);
 	background-image: -ms-linear-gradient(top, #efefef, #dedede);
 	background-image: -o-linear-gradient(top, #efefef, #dedede);
 	background-image: linear-gradient(top, #efefef, #dedede);
 	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#efefef', endColorstr='#dedede');
 	zoom: 1;
+
 	-webkit-animation-name: none !important;
-	-khtml-animation-name: none !important;
 	-moz-animation-name: none !important;
 	-ms-animation-name: none !important;
 	-o-animation-name: none !important;
 	animation-name: none !important;
+
 	-webkit-transition-duration: none !important;
-	-khtml-transition-duration: none !important;
 	-moz-transition-duration: none !important;
 	-ms-transition-duration: none !important;
 	-o-transition-duration: none !important;
@@ -489,11 +457,6 @@ select:hover,
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-direction: alternate;
 	-webkit-animation-duration: 500ms;
-	-khtml-animation-name: glow;
-	-khtml-animation-timing-function: ease-in;
-	-khtml-animation-iteration-count: infinite;
-	-khtml-animation-direction: alternate;
-	-khtml-animation-duration: 500ms;
 	-moz-animation-name: glow;
 	-moz-animation-timing-function: ease-in;
 	-moz-animation-iteration-count: infinite;
@@ -523,8 +486,8 @@ select:focus,
 .searchfield:focus,
 .comment-reply-link:focus {
 	border: solid 1px #B6D1E4 !important;
+
 	-webkit-box-shadow: 0 0 5px #97CAFF, inset 1px 1px 1px 1px rgba(192,192,192,.2) !important;
-	-khtml-box-shadow: 0 0 5px #97CAFF, inset 1px 1px 1px 1px rgba(192,192,192,.2) !important;
 	-moz-box-shadow: 0 0 5px #97CAFF, inset 1px 1px 1px 1px rgba(192,192,192,.2) !important;
 	-ms-box-shadow: 0 0 5px #97CAFF, inset 1px 1px 1px 1px rgba(192,192,192,.2) !important;
 	-o-box-shadow: 0 0 5px #97CAFF, inset 1px 1px 1px 1px rgba(192,192,192,.2) !important;
@@ -541,14 +504,14 @@ select:focus,
 	border-spacing: 0;
 	margin: 1em 0;
 	overflow: hidden;
+
 	-webkit-border-radius: 5px;
-	-khtml-border-radius: 5px;
 	-moz-border-radius: 5px;
 	-ms-border-radius: 5px;
 	-o-border-radius: 5px;
 	border-radius: 5px;
+
 	-webkit-box-shadow: 0 1px 1px #DDD;
-	-khtml-box-shadow: 0 1px 1px #DDD;
 	-moz-box-shadow: 0 1px 1px #DDD;
 	-ms-box-shadow: 0 1px 1px #DDD;
 	-o-box-shadow: 0 1px 1px #DDD;
@@ -586,15 +549,15 @@ select:focus,
 
 .entry table tbody tr:hover {
 	background: #FBF8E9;
+
 	-webkit-opacity: .8;
-	-khtml-opacity: .8;
 	-moz-opacity: .8;
 	-ms-opacity: .8;
 	-o-opacity: .8;
 	opacity: .8;
 	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+
 	-webkit-transition: all .1s ease-in-out;
-	-khtml-transition: all .1s ease-in-out;
 	-moz-transition: all .1s ease-in-out;
 	-ms-transition: all .1s ease-in-out;
 	-o-transition: all .1s ease-in-out;
@@ -607,22 +570,21 @@ select:focus,
 	background-color: #dce9f9;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#ebf3fc), to(#dce9f9));
 	background-image: -webkit-linear-gradient(top, #ebf3fc, #dce9f9);
-	background-image: -khtml-linear-gradient(top, #ebf3fc, #dce9f9);
 	background-image: -moz-linear-gradient(top, #ebf3fc, #dce9f9);
 	background-image: -ms-linear-gradient(top, #ebf3fc, #dce9f9);
 	background-image: -o-linear-gradient(top, #ebf3fc, #dce9f9);
 	background-image: linear-gradient(top, #ebf3fc, #dce9f9);
 	filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, startColorstr='#ebf3fc', endColorstr='#dce9f9');
 	zoom: 1;
+	border-top: none;
+
 	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
-	-khtml-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
 	-moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
 	-ms-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
 	-o-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;
 	box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;
-	border-top: none;
+
 	-webkit-text-shadow: 0 1px 0 rgba(255,255,255,.5);
-	-khtml-text-shadow: 0 1px 0 rgba(255,255,255,.5);
 	-moz-text-shadow: 0 1px 0 rgba(255,255,255,.5);
 	-ms-text-shadow: 0 1px 0 rgba(255,255,255,.5);
 	-o-text-shadow: 0 1px 0 rgba(255,255,255,.5);
@@ -635,7 +597,6 @@ select:focus,
 .entry table thead td:first-child,
 .entry table thead th:first-child {
 	-webkit-border-radius: 4px 0 0 0;
-	-khtml-border-radius: 4px 0 0 0;
 	-moz-border-radius: 4px 0 0 0;
 	-ms-border-radius: 4px 0 0 0;
 	-o-border-radius: 4px 0 0 0;
@@ -644,7 +605,6 @@ select:focus,
 .entry table thead td:last-child,
 .entry table thead th:last-child {
 	-webkit-border-radius: 0 4px 0 0;
-	-khtml-border-radius: 0 4px 0 0;
 	-moz-border-radius: 0 4px 0 0;
 	-ms-border-radius: 0 4px 0 0;
 	-o-border-radius: 0 4px 0 0;
@@ -653,7 +613,6 @@ select:focus,
 .entry table thead td:only-child,
 .entry table thead th:only-child {
 	-webkit-border-radius: 4px 4px 0 0;
-	-khtml-border-radius: 4px 4px 0 0;
 	-moz-border-radius: 4px 4px 0 0;
 	-ms-border-radius: 4px 4px 0 0;
 	-o-border-radius: 4px 4px 0 0;
@@ -662,7 +621,6 @@ select:focus,
 .entry table tbody tr:last-child td:first-child,
 .entry table tfoot tr:last-child td:first-child {
 	-webkit-border-radius: 0 0 0 4px;
-	-khtml-border-radius: 0 0 0 4px;
 	-moz-border-radius: 0 0 0 4px;
 	-ms-border-radius: 0 0 0 4px;
 	-o-border-radius: 0 0 0 4px;
@@ -671,7 +629,6 @@ select:focus,
 .entry table tbody tr:last-child td:last-child,
 .entry table tfoot tr:last-child td:last-child {
 	-webkit-border-radius: 0 0 4px 0;
-	-khtml-border-radius: 0 0 4px 0;
 	-moz-border-radius: 0 0 4px 0;
 	-ms-border-radius: 0 0 4px 0;
 	-o-border-radius: 0 0 4px 0;
@@ -680,14 +637,14 @@ select:focus,
 
 .entry table.no-border {
 	border: none;
+
 	-webkit-border-radius: none;
-	-khtml-border-radius: none;
 	-moz-border-radius: none;
 	-ms-border-radius: none;
 	-o-border-radius: none;
 	border-radius: none;
+
 	-webkit-box-shadow: none;
-	-khtml-box-shadow: none;
 	-moz-box-shadow: none;
 	-ms-box-shadow: none;
 	-o-box-shadow: none;
@@ -701,15 +658,15 @@ select:focus,
 .entry table.no-border tbody tr:hover,
 .entry table.no-hover tbody tr:hover {
 	background: none;
+
 	-webkit-opacity: 1;
-	-khtml-opacity: 1;
 	-moz-opacity: 1;
 	-ms-opacity: 1;
 	-o-opacity: 1;
 	opacity: 1;
 	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+
 	-webkit-transition: none;
-	-khtml-transition: none;
 	-moz-transition: none;
 	-ms-transition: none;
 	-o-transition: none;
@@ -731,8 +688,8 @@ img .alignright {
 	text-align: center;
 	margin: 1em 0;
 	padding: 8px 3px 3px 3px;
+
 	-webkit-border-radius: 5px;
-	-khtml-border-radius: 5px;
 	-moz-border-radius: 5px;
 	-ms-border-radius: 5px;
 	-o-border-radius: 5px;
@@ -772,7 +729,6 @@ img .alignright {
 /* featured-posts */
 .sliderImage div {
 	-webkit-opacity: .7;
-	-khtml-opacity: .7;
 	-moz-opacity: .7;
 	-ms-opacity: .7;
 	-o-opacity: .7;
@@ -781,7 +737,6 @@ img .alignright {
 }
 .controller-icons #sliderControl .slide-hovered, .controller-icons .sliderControl .slide-hovered {
 	-webkit-opacity: .5;
-	-khtml-opacity: .5;
 	-moz-opacity: .5;
 	-ms-opacity: .5;
 	-o-opacity: .5;
@@ -790,7 +745,6 @@ img .alignright {
 }
 .controller-icons #sliderControl .control-hovered, .controller-icons .sliderControl .control-hovered {
 	-webkit-opacity: 1;
-	-khtml-opacity: 1;
 	-moz-opacity: 1;
 	-ms-opacity: 1;
 	-o-opacity: 1;
@@ -820,8 +774,8 @@ img.right-thumbnail,
 .warea ul.suf-posts-thumbnail li img.suf-widget-thumb,
 ul.suf-posts-thumbnail li img.suf-widget-thumb {
 	position: relative !important;
+
 	-webkit-transition: all 200ms linear;
-	-khtml-transition: all 200ms linear;
 	-moz-transition: all 200ms linear;
 	-ms-transition: all 200ms linear;
 	-o-transition: all 200ms linear;
@@ -836,14 +790,14 @@ img.right-thumbnail:hover,
 .warea ul.suf-posts-thumbnail li img.suf-widget-thumb:hover,
 ul.suf-posts-thumbnail li img.suf-widget-thumb:hover {
 	position: relative !important;
+
 	-webkit-transform: scale(1.01, 1.01);
-	-khtml-transform: scale(1.01, 1.01);
 	-moz-transform: scale(1.01, 1.01);
 	-ms-transform: scale(1.01, 1.01);
 	-o-transform: scale(1.01, 1.01);
 	transform: scale(1.01, 1.01);
+
 	-webkit-animation: bounce-mid 600ms ease;
-	-khtml-animation: bounce-mid 600ms ease;
 	-moz-animation: bounce-mid 600ms ease;
 	-ms-animation: bounce-mid 600ms ease;
 	-o-animation: bounce-mid 600ms ease;
@@ -861,14 +815,14 @@ div#trust-form.contact-form {
 	padding: 1em !important;
 	border: 1px solid #eee !important;
 	zoom: 1 !important;
+
 	-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset !important;
-	-khtml-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset !important;
 	-moz-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset !important;
 	-ms-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset !important;
 	-o-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset !important;
 	box-shadow: 0 1px 0 rgba(255,255,255,.8) inset !important;
+
 	-webkit-border-radius: 5px !important;
-	-khtml-border-radius: 5px !important;
 	-moz-border-radius: 5px !important;
 	-ms-border-radius: 5px !important;
 	-o-border-radius: 5px !important;
@@ -877,14 +831,14 @@ div#trust-form.contact-form {
 div#trust-form.contact-form table {
 	background: none !important;
 	border: none !important;
+
 	-webkit-border-radius: none !important;
-	-khtml-border-radius: none !important;
 	-moz-border-radius: none !important;
 	-ms-border-radius: none !important;
 	-o-border-radius: none !important;
 	border-radius: none !important;
+
 	-webkit-box-shadow: none !important;
-	-khtml-box-shadow: none !important;
 	-moz-box-shadow: none !important;
 	-ms-box-shadow: none !important;
 	-o-box-shadow: none !important;
@@ -901,15 +855,15 @@ div#trust-form.contact-form table td {
 div#trust-form.contact-form table tr:hover{
 	background: none  !important;
 	border: none !important;
+
 	-webkit-opacity: 1 !important;
-	-khtml-opacity: 1 !important;
 	-moz-opacity: 1 !important;
 	-ms-opacity: 1 !important;
 	-o-opacity: 1 !important;
 	opacity: 1 !important;
 	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100) !important;
+
 	-webkit-transition: none !important;
-	-khtml-transition: none !important;
 	-moz-transition: none !important;
 	-ms-transition: none !important;
 	-o-transition: none !important;
@@ -1007,6 +961,7 @@ footer {
 }
 
 /* Main column */
+#container,
 #main-col,
 #single-col,
 #content,
